@@ -3,7 +3,6 @@ from pathlib import Path
 # Define the requirements content
 requirements_content = """streamlit>=1.39.0
 pandas>=2.2.3
-plotly>=5.24.1
 numpy>=2.1.2
 scipy>=1.14.1
 scikit-learn>=1.5.2
