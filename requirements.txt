@@ -1,0 +1,17 @@
+from pathlib import Path
+
+# Define the requirements content
+requirements_content = """streamlit>=1.39.0
+pandas>=2.2.3
+plotly>=5.24.1
+numpy>=2.1.2
+scipy>=1.14.1
+scikit-learn>=1.5.2
+openpyxl>=3.1.5
+"""
+
+# Write to a requirements.txt file
+requirements_path = Path("/mnt/data/requirements.txt")
+requirements_path.write_text(requirements_content)
+
+requirements_path
